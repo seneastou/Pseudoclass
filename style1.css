@@ -1,0 +1,69 @@
+
+
+a:link {
+    color: pink;
+}
+
+a:hover {
+    color: green;
+}
+ 
+a:active {
+    color: red;
+}
+
+p::before {
+     content: "Début";
+     margin-right: 5px;
+     font-weight: bold;
+}
+
+p::after {
+    content: "Fin";
+    margin-left: 5px;
+    font-weight: bold;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+
+input:focus{
+
+     outline: none;
+     border-color: blue;
+
+}
+
+input:disabled {
+    background-color: lightgrey;
+}
+
+
+button:disabled
+ {
+    background-color: lightgray;
+ }
+
+ div::first-letter{
+    font-size: 30px;
+    color: violet;
+ }
+
+ div::first-line{
+
+    color: blue;
+ }
+
+ li:first-child{
+    background-color: red;
+ }
+
+ li:last-child{
+    background-color: green;
+ }
