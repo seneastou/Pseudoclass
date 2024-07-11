@@ -1,4 +1,4 @@
-
+/* liens */
 
 a:link {
     color: pink;
@@ -11,15 +11,14 @@ a:hover {
 a:active {
     color: red;
 }
-
+/* fin liens */
 p::before {
-     content: "Début";
-     margin-right: 5px;
+     content: "Début :";
      font-weight: bold;
 }
 
 p::after {
-    content: "Fin";
+    content: ": Fin";
     margin-left: 5px;
     font-weight: bold;
 
@@ -67,3 +66,5 @@ button:disabled
  li:last-child{
     background-color: green;
  }
+
+ 
